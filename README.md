@@ -1,1 +1,71 @@
 # Charleston Wedding Band
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Charleston Wedding Band</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>The Charleston Wedding Band</h1>
+      <p>Unforgettable Performances Since 2010</p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="images/weddings.jpg" alt="Weddings">
+        <h3>Weddings</h3>
+        <p>Make your special day unforgettable with live music that sets the perfect atmosphere.</p>
+      </div>
+      <div class="card">
+        <img src="images/corporate.jpg" alt="Corporate Events">
+        <h3>Corporate Events</h3>
+        <p>Impress your clients and energize your team with professional entertainment.</p>
+      </div>
+      <div class="card">
+        <img src="images/private.jpg" alt="Private Parties">
+        <h3>Private Parties</h3>
+        <p>Transform your celebration into an extraordinary event with our dynamic performances.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <blockquote>
+      "Hands-down the best wedding band in Charleston. They truly bring the party to the reception!"
+      <cite>– Cam B.</cite>
+    </blockquote>
+    <blockquote>
+      "We couldn't have asked for a better experience. The music kept everyone dancing all night!"
+      <cite>– Happy Couple</cite>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:thecharlestonweddingband@gmail.com">thecharlestonweddingband@gmail.com</a></p>
+    <p>Phone: <a href="tel:8607293354">(860) 729-3354</a></p>
+    <a href="mailto:thecharlestonweddingband@gmail.com" class="btn">Book Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Charleston Wedding Band. All rights reserved.</p>
+  </footer>
+</body>
+</html>
